@@ -20,16 +20,16 @@ scanf("%d", &jogador);
 computador= rand () % 3 + 1 ;
 switch(jogador) {
     case 1:
-    printf("Jogador escolheu pedra\n");
+    printf("Jogador escolheu: PEDRA\n");
 
     break;
 
     case 2:
-    printf("Jogador escolheu papel\n");
+    printf("Jogador escolheu: PAPEL\n");
     break;
 
     case 3:
-    printf("Jogador escolheu tesoura\n");
+    printf("Jogador escolheu: TESOURA\n");
     break;
 
     default:
@@ -37,16 +37,16 @@ switch(jogador) {
 }
 switch(computador) {
     case 1:
-    printf("Computador escolheu pedra\n");
+    printf("Computador escolheu: PEDRA\n");
     
     break;
 
     case 2:
-    printf("Computador escolheu papel\n");
+    printf("Computador escolheu: PAPEL\n");
     break;
 
     case 3:
-    printf("Computador escolheu tesoura\n");
+    printf("Computador escolheu: TESOURA\n");
     break;
 
 }
