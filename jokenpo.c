@@ -10,10 +10,12 @@ int jogador,computador;
 srand(time(0));
 
 printf("***Jogo de jokenpó***\n");
+do{
 printf("Escolha uma opção\n");
 printf("1. Pedra\n");
 printf("2. papel\n");
 printf("3. tesoura\n");
+printf("4. sair\n");
 printf("Escolha uma opção:\n");
 scanf("%d", &jogador);
 
@@ -63,6 +65,6 @@ if(jogador == computador){
     else if (jogador == 3 && computador== 1 ){
             printf("computador ganhou\n");}
     else if (jogador == 3 && computador== 2 ){
-            printf("Jogador ganhou\n");}
+            printf("Jogador ganhou\n");}}while(jogador<=3);
 return 0;
 }
