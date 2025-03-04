@@ -12,7 +12,7 @@ int main() {
         }
     } while (num >= 0);
    
-    printf("Número negativo detectado. Saindo...\n");
+    printf("Número negativo detectado. Saindo\n");
    
     return 0;
 }
